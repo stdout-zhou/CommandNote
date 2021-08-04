@@ -20,7 +20,7 @@ $ conda update conda
 
 # Use
 
-When you first use conda, you should "chmod 777 active" in miniconda3/bin.
+When you firstly use conda, you should "chmod 777 active" in miniconda3/bin.
 
 Activating conda.
 
@@ -55,7 +55,7 @@ Create visual environment.
 $ conda create -n flask python=3.6.2 # "flask" is the name of visual environment.
 ```
 
-Activate a environment
+Activate a environment.
 
 ``` shell
 $ conda activate flask
@@ -65,5 +65,11 @@ Install packages.
 
 ``` shell
 $ conda install flask # "flask" is the name of installed package.
+```
+
+Exit visual enviroment.
+
+``` shell
+$ conda deactivate
 ```
 
